@@ -1,1 +1,2 @@
-# Re-design of a custom footer for a club
+# Custom Footer
+Re-design of a custom footer for a club
