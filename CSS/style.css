@@ -1,0 +1,279 @@
+@import url('https://fonts.googleapis.com/css2?family=Mulish:wght@200;300;400;500;600;700;800;900&display=swap');
+      
+    
+    .main-container {
+display: grid;
+background: #d5a021;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(1, 1fr);
+padding-top: 60px;
+padding-bottom: 60px;
+padding-left: 120px;
+padding-right: 120px;
+}
+
+    .container-1 {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        
+        
+        
+        
+    } 
+
+    .container-2 {
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+        
+        
+        
+        
+    } 
+    
+   
+    
+    .white-text {
+        color: #282828;
+        font-family: 'Mulish', sans-serif;
+        font-size: 15px;
+        line-height: 0.6;
+    }
+    
+ .footer-links-1 {
+     text-decoration: none;
+     display: block;
+     font-family: 'Mulish', sans-serif;
+     color: #282828;
+     font-size: 15px;
+     transition: all 0.3s;
+ }
+
+ .footer-links-1:hover {
+     color: #02355c;
+     
+ }
+
+ .Link-container {
+    display: flex;
+    gap: 1em;
+    flex-direction: row;
+    width: 650px;
+}
+ 
+
+    
+    .logo {
+        max-width: 100%;
+        height: auto;
+        width: 300px;  
+        filter: brightness(0);
+      
+    }
+
+    .white-heading {
+        color: #000000;
+        font-family: 'Mulish', sans-serif;
+        font-size: 16px;
+    }
+
+    .social-footer-link {
+        color: #241a02;
+        font-size: 22px;
+        transition: all 0.3s;
+    }
+
+    .social-footer-link:hover {
+        color: #02355c;
+    }
+
+    .box-2 {
+    text-align: right;
+}
+
+.footer-links-bottom {
+    text-decoration: none;
+    color: #282828;
+    font-family: 'Mulish', sans-serif;
+    padding-left: 10px;
+    transition: all 0.3s;
+    font-size: 15px;
+    
+}
+
+.footer-links-bottom:hover {
+    
+    color: #02355c;
+    
+    
+}
+
+.footer-links-bottom-1 {
+    text-decoration: none;
+    color: #282828;
+    font-family: 'Mulish', sans-serif;
+    border-right: 2px solid #c5941e;
+    padding-right: 10px;
+    transition: all 0.3s;
+    font-size: 15px;
+}
+
+.footer-links-bottom-1:hover {
+
+    color: #02355c;
+ 
+}
+
+.bottom-footer-container-1 {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    
+}
+
+.bottom-footer-container-2 {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+   
+}
+
+    
+.bottom-main-container {
+display: grid;
+background: #d5a021;
+grid-template-columns: repeat(2, 1fr);
+grid-template-rows: repeat(1, 1fr);
+padding-left: 120px;
+padding-right: 120px;
+padding-bottom: 15px;
+border-top: 1px solid #c5941e;
+}
+
+.bottom-footer-white-text {
+    color: #282828;
+    font-family: 'Mulish', sans-serif;
+    font-size: 14px;
+}
+
+
+
+
+    /* MEDIA QUIERY */
+    @media only screen and (max-width: 1135px) {
+        .main-container {
+
+padding-left: 60px;
+padding-right: 60px;
+}
+
+.bottom-main-container {
+
+padding-left: 60px;
+padding-right: 60px;
+}
+
+}
+
+    
+    /* MEDIA QUIERY */
+    @media only screen and (max-width: 1023px) {
+        .main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+}
+        
+        .logo {
+            width: 500px;
+        }
+        
+        .box-2 {
+    text-align: center;
+}
+
+
+    .box-1 {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+
+    .Link-container {
+        width: auto;
+        text-align: center;
+    }
+           
+    }
+        
+    /* MEDIA QUIERY */
+    @media only screen and (max-width: 767px) {
+  
+        
+        .logo {
+            width: 500px;
+        }
+
+        .box-2 {
+    text-align: center;
+}
+
+
+.box-1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+
+.Link-container {
+    width: auto;
+    text-align: center;
+}
+
+.bottom-main-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.bottom-footer-white-text {
+  text-align: center;
+}
+
+.logo {
+    
+    margin-bottom: 30px;
+}
+
+.white-text {
+    line-height: 1.6;
+}
+        
+    }
+
+       /* MEDIA QUIERY */
+       @media only screen and (max-width: 700px) {
+  
+        .Link-container {
+    flex-direction: column;
+}
+ 
+  }
+
+         /* MEDIA QUIERY */
+         @media only screen and (max-width: 375px) {
+  
+            .logo {
+            max-width: 130%;
+    
+            }
+
+}
+
+
+
